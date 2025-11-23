@@ -1,0 +1,9 @@
+```mermaid
+flowchart TD
+    A[Data Sources (CSV / JSON / Streams)] --> B[Ingestion Layer (Upload API / Kafka)]
+    B --> C[Spark Processing (Batch + Streaming)]
+    C --> D[Data Lake (S3 / MinIO + Parquet)]
+    C --> E[Serving DB (ClickHouse)]
+    E --> F[API Layer (FastAPI)]
+    F --> G[Control Plane (PostgreSQL + Redis)]
+```
