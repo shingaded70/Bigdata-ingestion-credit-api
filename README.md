@@ -64,13 +64,6 @@ big-data-ingestion-credit-api/
 └── LICENSE
 ```
 
----
-
-## 📄 PDF Assignment
-
-The file **BigData_Assignment_Dhiraj.pdf** in this repo is a ready-to-submit written assignment document based on this architecture.
-
----
 
 ## 🧪 How to Use This Repo for Your Assignment
 
@@ -85,9 +78,6 @@ The file **BigData_Assignment_Dhiraj.pdf** in this repo is a ready-to-submit wri
      git commit -m "Big Data Ingestion + Credit-Based API assignment"
      git push -u origin main
      ```
-2. Share your **GitHub repository link** as required in your assignment.
-
----
 
 ## 📜 License
 
